@@ -1,3 +1,4 @@
+//Se crea la clase AppTheme que contiene el tema de la aplicación
 import 'package:flutter/material.dart';
 
 const Color _customColor = Color(0xFF027373);
@@ -8,7 +9,8 @@ const List<Color> _colorTheme=[
   Color(0xFF0D8C7F),
   Color(0xFF65A69F),
   Color(0xFF9BBFBC),
-  Color(0xFFF0F1F2),
+  Color(0xFF1BCABB),
+  Color(0xFFE60676),
 ];
 
 class AppTheme{
@@ -23,10 +25,19 @@ class AppTheme{
       useMaterial3: true,
       colorSchemeSeed: _colorTheme[selectedThemeColor],
       fontFamily: 'Odin Rounded',
+      // textTheme define el estilo de los textos
+      textTheme: TextTheme(
+        bodyLarge: TextStyle(
+          color: _colorTheme[selectedThemeColor],
+          fontSize: 20,
+        ),
+      ),
       appBarTheme: AppBarTheme(
-        backgroundColor: _colorTheme[selectedThemeColor],
+        color: _colorTheme[selectedThemeColor],
         foregroundColor: Colors.white,
       ),
+
     );
   }
 }
+
