@@ -11,5 +11,12 @@ class HomeView extends StatelessWidget {
     return const Placeholder();
   }
 }
+abstract class RegisterView extends StatefulWidget {
+  static const String name = 'RegisterView';
+  const RegisterView({super.key});
 
+  @override
+   Widget build(BuildContext context) {
+    return const Placeholder();}
 
+}

@@ -1,23 +1,14 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(RegisterApp());
 
-class RegisterApp extends StatelessWidget {
+
+class RegisterView extends StatefulWidget {
+  static const String name ='RegisterView';
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Registro de Usuario',
-      home: RegisterScreen(),
-    );
-  }
+  _RegisterViewState createState() => _RegisterViewState();
 }
 
-class RegisterScreen extends StatefulWidget {
-  @override
-  _RegisterScreenState createState() => _RegisterScreenState();
-}
-
-class _RegisterScreenState extends State<RegisterScreen> {
+class _RegisterViewState extends State<RegisterView> {
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   String _username = '';
   String _email = '';
