@@ -4,11 +4,13 @@ class MYBoton extends StatelessWidget {
   final VoidCallback onPressed;
   final Function()? onTab;
 
+final controller;
+
   const MYBoton({
     super.key,
     required this.text,
     required this.onPressed,
-    this.onTab
+    this.onTab, this.controller
   });
 
   @override

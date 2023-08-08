@@ -4,6 +4,5 @@
 
 export 'package:unaslindas/app/presentation/views/home/home_view.dart';
 export 'package:unaslindas/app/presentation/views/login/login_view.dart';
-export 'package:unaslindas/app/presentation/views/Register/register_view.dart';
 
 

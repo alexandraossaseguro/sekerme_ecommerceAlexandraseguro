@@ -5,6 +5,7 @@ class MyFromTextField extends StatelessWidget {
     final TextInputType;
     final bool obscureText;
     final bool suffixIcon;
+    final TextEditingController controller;
 
   const MyFromTextField({super.key,
     required this.labelText,
@@ -12,6 +13,8 @@ class MyFromTextField extends StatelessWidget {
     this.TextInputType,
     required this.obscureText,
     required this.suffixIcon,
+    required this.controller,
+
   });
 
   @override
@@ -30,6 +33,7 @@ class MyFromTextField extends StatelessWidget {
       ]
     ),
     child:TextField(
+      controller: controller,
       obscureText: obscureText,
       keyboardType: TextInputType,
       decoration: InputDecoration(
