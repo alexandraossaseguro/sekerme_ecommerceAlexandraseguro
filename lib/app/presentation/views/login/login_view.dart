@@ -7,7 +7,6 @@ import 'package:unaslindas/app/presentation/widgets/links_common.dart';
 
 
 class LoginView extends StatelessWidget {
-
   static const String name = 'login_view';
   final  _emailAddress=TextEditingController();
   final _visiblePassword=TextEditingController();
