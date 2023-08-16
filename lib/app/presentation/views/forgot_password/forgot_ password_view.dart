@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:unaslindas/app/presentation/widgets/links_common.dart';
-import '../../widgets/mysocialbuttons.dart';
-import '../login/widgets/login_divider.dart';
-import 'package:unaslindas/app/presentation/widgets/mysocialbuttons.dart';
+
+
 
 class ForgotPasswordView extends StatelessWidget {
 

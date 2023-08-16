@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:unaslindas/app/presentation/views/forgot_password/forgot_%20password_view.dart';
-import 'package:unaslindas/app/presentation/views/home/home_view.dart';
+
 import 'package:unaslindas/app/presentation/views/login/widgets/login_divider.dart';
 import 'package:unaslindas/app/presentation/widgets/links_common.dart';
 
@@ -66,7 +66,7 @@ class LoginView extends StatelessWidget {
                           onPressed: (){
                             Navigator.push(
                                 context,
-                                MaterialPageRoute(builder: (context) => const ForgotPasswordView ())
+                                MaterialPageRoute(builder: (context) => ForgotPasswordView ())
                             );
                           },
                           child: Text('Did you forget your password?',
