@@ -14,8 +14,8 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiBlocProvider(
 
-      providers:  [ BlocProvider<AuthkBloc>(
-          create: (_)=> AuthkBloc(),
+      providers:  [ BlocProvider<AuthBloc>(
+          create: (_)=> AuthBloc(),
       )],
       child: MaterialApp.router(
         title: 'Flutter Demo',

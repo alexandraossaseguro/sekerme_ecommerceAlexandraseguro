@@ -3,7 +3,6 @@ import 'package:flutter_svg/svg.dart';
 import 'package:unaslindas/app/presentation/widgets/links_common.dart';
 
 
-
 class ForgotPasswordView extends StatelessWidget {
 
   static const String name = 'forgot_password_view';

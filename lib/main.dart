@@ -10,5 +10,5 @@ import 'app/app.dart';
     anonKey: dotenv.env['SUPABASE_KEY']!,
    );
   runApp(const App());
-  final supabase =Supabase.instance.client;
 }
+final supabase =Supabase.instance.client;

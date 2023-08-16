@@ -1,10 +1,10 @@
 part of 'authk_bloc.dart';
 
-abstract class AuthkState extends Equatable {
-  const AuthkState();
+abstract class AuthState extends Equatable {
+  const AuthState();
 }
 
-class AuthkInitial extends AuthkState {
+class AuthInitial extends AuthState {
   @override
   List<Object> get props => [];
 }

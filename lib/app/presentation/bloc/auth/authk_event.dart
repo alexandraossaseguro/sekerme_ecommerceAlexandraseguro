@@ -1,5 +1,4 @@
 part of 'authk_bloc.dart';
-
-abstract class AuthkEvent extends Equatable {
-  const AuthkEvent();
+abstract class AuthEvent extends Equatable {
+  const AuthEvent();
 }
