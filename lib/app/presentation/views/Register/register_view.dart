@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:unaslindas/app/presentation/widgets/links_common.dart';
 import 'package:unaslindas/app/presentation/widgets/miboton.dart';
-import '../../../config/themes/theme.dart';
+
 
 class RegisterView extends StatelessWidget {
 
@@ -26,7 +26,7 @@ class RegisterView extends StatelessWidget {
               padding: const EdgeInsets.all(8.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
-                children: [SvgPicture.asset('assets/images/logo_mascotitas.svg',
+                children: [SvgPicture.asset('assets/images/MyMarca.svg',
                   alignment: Alignment.topCenter,
                   height: 100,
                   width: 100,
